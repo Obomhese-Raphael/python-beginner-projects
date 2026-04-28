@@ -22,7 +22,7 @@ def show_tasks(tasks):
     else:
         print("\n--- YOUR TO-DO LIST ---")
         for i, task in enumerate(tasks, 1):
-            status = "✔" if task["done"] else " "
+            status = "✔" if task["done"] else " " 
             print(f"{i}. [{status}] {task['title']}")
 
 
